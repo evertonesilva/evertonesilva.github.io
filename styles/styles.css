@@ -1,5 +1,49 @@
+/* Reset */
 * {
   padding: 0;
   margin: 0;
-  font-family: roboto;
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Variables */
+/* Style */
+.highlight {
+  color: #54b689;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+#bio-container {
+  flex: 1 1 20%;
+  min-height: 100vh;
+  background-color: #1e2a3a;
+  text-align: center;
+  padding: 30px 12px;
+  border-right: 5px solid #293544;
+}
+
+#about-container {
+  flex: 1 1 80%;
+  min-height: 100vh;
+  background-color: #111821;
+  padding: 50px;
+}
+
+/*Bio Container*/
+#bio-container h2 {
+  margin-bottom: 25px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+#bio-container img {
+  height: 150px;
+  width: 150px;
 }/*# sourceMappingURL=styles.css.map */

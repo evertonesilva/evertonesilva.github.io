@@ -1,4 +1,51 @@
+/* Reset */
 *
     padding: 0
     margin: 0
-    font-family: roboto, 
+    font-family: roboto, sans-serif
+    box-sizing: border-box
+
+/* Variables */
+
+$main-color: #54b689
+$main-text-color: #fff
+$border-color: #999
+$bio-bg-color: #1e2a3a
+$bio-border-color: #293544
+$about-bg-color: #111821
+
+/* Style */
+
+.highlight
+    color: $main-color
+
+#container
+    display: flex
+    flex-direction: row
+    color: $main-text-color
+
+#bio-container
+    flex: 1 1 20%
+    min-height: 100vh
+    background-color: $bio-bg-color
+    text-align: center
+    padding: 30px 12px
+    border-right: 5px solid $bio-border-color
+
+#about-container
+    flex: 1 1 80%
+    min-height: 100vh
+    background-color: $about-bg-color
+    padding: 50px
+
+/*Bio Container*/
+
+#bio-container h2
+    margin-bottom: 25px
+
+p
+    margin-bottom: 20px
+
+#bio-container img
+    height: 150px
+    width: 150px
