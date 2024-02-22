@@ -43,7 +43,130 @@ p {
   margin-bottom: 20px;
 }
 
-#bio-container img {
-  height: 150px;
+#bio-container #welcome-text {
+  font-weight: bold;
+}
+
+#bio-img {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+#social-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 1px solid #999;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+#social-container li {
+  flex: 1 1 0;
+  max-width: 60px;
+}
+#social-container li a {
+  color: #54b689;
+  font-size: 1.5rem;
+}
+
+#email-container {
+  display: flex;
+  justify-content: center;
+}
+
+#email-container ion-icon, #email-container a {
+  flex: 1 1 0;
+}
+
+#email-container ion-icon {
+  color: #54b689;
+  font-size: 1.2rem;
+  margin-right: 5px;
+  max-width: 20px;
+}
+
+#email-container a {
+  color: #fff;
+  text-decoration: none;
+  max-width: 225px;
+}
+
+/* About Container*/
+#name {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.description {
+  max-width: 75%;
+  margin-bottom: 1rem;
+}
+
+#btn-projects {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #54b689;
+  border: 2px solid #54b689;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 25px 0;
+  padding: 12px 10px;
   width: 150px;
+  text-align: center;
+  display: flex;
+}
+
+#btn-projects ion-icon, #btn-projects span {
+  flex: 1 1 0;
+}
+
+#btn-projects ion-icon {
+  font-size: 20px;
+  max-width: 20px;
+}
+
+#btn-projects:hover {
+  background-color: transparent;
+}
+
+#skills-section-title {
+  border-top: 1px solid #999;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.skill-box {
+  flex: 2 2 50%;
+  max-width: 50%;
+  margin-bottom: 35px;
+}
+
+.skills-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid #54b689;
+}
+
+.skill-box i {
+  font-size: 45px;
+  margin-right: 10px;
 }/*# sourceMappingURL=styles.css.map */
